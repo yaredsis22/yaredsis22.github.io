@@ -1,0 +1,169 @@
+/* <style type="text/css">  */
+
+body {
+    text-align: center;
+    background-image: url(1.jpg);
+    padding: 100px;
+    padding-top: 10px;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:transparent;
+    color: white;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: brown;
+}
+.svgClass {
+    background-color:gray;
+    float:left;
+    width:70%;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+polygon{
+    fill:white; transition: 1s fill;
+}
+polygon:hover {
+    fill: rgb(253, 252, 251);
+     
+}
+.lideta { stroke:rgb(250, 239, 239);stroke-width: 2px;stroke-dasharray: 3; fill:rgb(0, 140, 255); fill-opacity: 50%;}
+.kirkos{stroke:rgb(255, 123, 0);stroke-width: 2px;stroke-dasharray: 3; fill:rgb(228, 176, 33); fill-opacity: 10%;}
+.nifassilk{stroke:goldenrod;stroke-width: 2px;stroke-dasharray: 3; fill: rgb(153, 0, 255); fill-opacity: 50%;}
+.akakikaliti {stroke:olive;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(123, 255, 0); fill-opacity: 10%;}
+.yeka{stroke:lawngreen;stroke-width: 2px;stroke-dasharray: 3;fill:rgb(255, 0, 0); fill-opacity: 10%;}
+.bole{stroke:green;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(0, 195, 255); fill-opacity: 10%;}
+.kolfekeraniyo{stroke: khaki;stroke-width: 2px;stroke-dasharray: 3; fill: rgb(75, 74, 75); fill-opacity: 50%;}
+.addisketema{stroke:palegoldenrod;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(255, 238, 1);fill-opacity: 50%;}
+.arada{stroke:peru;stroke-width: 2px;stroke-dasharray: 3; fill:rgb(19, 51, 0); fill-opacity: 50%;}
+.gulele{stroke:orange;stroke-width: 2px; stroke-dasharray: 3; fill:rgb(122, 49, 0); fill-opacity: 50%;}
+
+.removed{
+display: none;
+}
+.button{
+
+    position: relative;
+    color: rgb(95, 94, 94);
+    font-size: 20px;
+    background:rgb(109, 109, 109);
+    border:none;
+    outline: none;
+    left: 0%;
+    width: 260px;
+    text-align: left;
+}
+.button.hover{
+    fill: rgb(245, 239, 239);
+}
+#sidebar{
+    text-align: left;
+    float:right;
+    width:30%;
+    background:none;
+    color:rgb(105, 105, 105);
+    padding:0px;
+    box-sizing:border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(24.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px; 
+   
+
+}
+ul li{
+    display: inline-block
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff; 
+    transition: 0.6s ease;
+
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+
+}
+.logo img{
+    float: left;
+    width:150px;
+    height: 130px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+    color: #fff;
+    font-size: 55px; 
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease; 
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.tm-copyright-div{
+    position: absolute;
+    color: #fff;
+    top: 95%;
+    left: 69%;
+    
+    font-size: 17px
+    
+
+
+}
+
+
+
